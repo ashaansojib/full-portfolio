@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Arial, sans-serif;
+}
+.my-container{
+  @apply max-w-screen-xl mx-auto
+}
+.ball{
+  @apply px-2 py-1 bg-blue-600 text-white rounded-full text-xl
+}
